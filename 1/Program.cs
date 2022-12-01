@@ -33,7 +33,7 @@ string[] ConvertArray (string[] array, int size)
 }
 
 // Код программы
-string[] originalArray = {"2323","big","ralli","//(","4<"};
+string[] originalArray = {"print","hello","car","|:(","><"};
 int sizeArray = CountElement(originalArray);
 string[] finalArray = new string[sizeArray];
 finalArray = ConvertArray(originalArray, sizeArray);
